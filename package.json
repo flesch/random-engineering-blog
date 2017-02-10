@@ -1,0 +1,16 @@
+{
+  "name": "random-engineering-blog",
+  "description": "Bored? Read a random engineering blog from https://github.com/kilimchoi/engineering-blogs/",
+  "version": "1.0.0",
+  "author": "John Flesch <john@fles.ch> (https://fles.ch/)",
+  "dependencies": {
+    "got": "^6.7.1",
+    "micro": "^7.0.3"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  }
+}
