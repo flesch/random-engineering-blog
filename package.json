@@ -1,16 +1,22 @@
 {
   "name": "random-engineering-blog",
   "description": "Bored? Read a random engineering blog from https://github.com/kilimchoi/engineering-blogs/",
-  "version": "1.0.0",
-  "author": "John Flesch <john@fles.ch> (https://fles.ch/)",
-  "dependencies": {
-    "got": "^6.7.1",
-    "micro": "^7.0.3"
+  "version": "2.0.0",
+  "main": "index.js",
+  "author": {
+    "email": "john@fles.ch",
+    "name": "John Flesch",
+    "url": "https://fles.ch/"
   },
   "keywords": [],
+  "dependencies": {
+    "got": "^9.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.1"
+  },
   "license": "MIT",
-  "main": "index.js",
   "scripts": {
-    "start": "micro"
+    "prepare": "prettier --write *.{js,json}"
   }
 }
